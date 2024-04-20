@@ -1,12 +1,6 @@
 # IMPORTANT NOTE 
 ## If You Want To Use The App Without GUI Run EcommerceSystemTerminal.java 
-## If You Want To Use The App With GUI Run EcommerceSystemGUI.java
-
-
-
-
-![image](https://github.com/abdelmoatyyy/java-ecommerce-gui/assets/88376075/0e1e82f2-2e9a-47c0-afc3-641f9b22fc85)
-# A Simpe Java Ecommerce App With Gui (JavaFX) 
+## If You Want To Use The App With GUI Run EcommerceSystemGUI.java 
 
 ![image](https://github.com/abdelmoatyyy/java-ecommerce-gui/assets/88376075/d8b43832-fe02-4cc8-abf7-2e8fdfec07fd)
 
