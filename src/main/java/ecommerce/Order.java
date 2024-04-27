@@ -23,7 +23,7 @@ public class Order {
     System.out.println("Order Id :" + this.orderId);
     System.out.println("Customer Id : " + cart.getCustomerId());
     System.out.println("Products : ");
-    for (int i = 0; i < cart.getPcount(); i++) {
+    for (int i = 0; i < cart.getProducts().length; i++) {
       System.out.println(
         cart.getProducts()[i].getName() +
         " - " +

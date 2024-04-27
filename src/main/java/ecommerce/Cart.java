@@ -15,11 +15,15 @@ public class Cart {
   }
 
   public void addProduct(Product p) {
-    if (pcount == Nproducts) {
-      return;
+    for (int i = 0; i < products.length; i++) {
+      if (products[i] == null) {
+        products[i] = p;
+        pcount++;
+        return;
+      }
     }
-    products[pcount] = p;
-    pcount++;
+    System.out.println("FULL");
+    return;
   }
 
   public int getCustomerId() {
@@ -28,10 +32,6 @@ public class Cart {
 
   public int getNproducts() {
     return Nproducts;
-  }
-
-  public int getPcount() {
-    return pcount;
   }
 
   public Product[] getProducts() {
@@ -57,7 +57,7 @@ public class Cart {
 
   public double calculatePrice() {
     double sum = 0;
-    for (int i = 0; i < pcount; i++) {
+    for (int i = 0; i < products.length; i++) {
       sum += products[i].getPrice();
     }
     return sum;
